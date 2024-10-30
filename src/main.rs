@@ -1,3 +1,4 @@
+// Create your own Option
 fn main() {
     // Using Option with i32
     let some_number: Option<i32> = Some(42);
