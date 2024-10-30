@@ -1,12 +1,15 @@
-// Create your own Option<T>
+// 1. Try to compile this code;
+// 2. Fix the errors
+// 3. Create your own Option<T>
+
 fn main() {
     // Using Option with i32
-    let some_number: Option<i32> = Some(42);
-    let none_number: Option<i32> = None;
+    let some_number = Some(42);
+    let none_number = None;
 
     // Using Option with String
-    let some_text: Option<String> = Some(String::from("Hello, Rust!"));
-    let none_text: Option<String> = None;
+    let some_text = Some(String::from("Hello, Rust!"));
+    let none_text = None;
 
     // Working with Option<i32>
     match some_number {
